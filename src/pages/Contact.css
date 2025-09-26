@@ -1,0 +1,68 @@
+/*
+File Name: Contact.css
+Student Name: Funmi Adewoye
+StudentID: 301341332
+Date: 09/25/2025
+*/
+
+h1{
+  text-align: center;
+  padding: 20px;
+}
+
+.contact-container {
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem; 
+}
+
+.name-fields {
+  display: flex;
+  gap: 1rem;
+}
+
+.name-fields input {
+  flex: 1; 
+}
+
+input, textarea{
+  padding: 0.75rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #131414;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 250px;
+}
+
+::placeholder{
+  color: #FF9800;
+}
+
+.contact-send  {
+  background-color: #131414;
+  color: white;
+  border: none;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.contact-send:hover {
+    background-color: #FF9800;
+}
+
+
+

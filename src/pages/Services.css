@@ -1,0 +1,48 @@
+/*
+File Name: Services.css
+Student Name: Funmi Adewoye
+StudentID: 301341332
+Date: 09/25/2025
+*/
+
+.service-text h1{
+  text-align: center;
+
+}
+
+.service-section {
+  display: flex;
+  align-items: center; 
+  justify-content: space-between; 
+  gap: 2rem;
+  flex-wrap: wrap; 
+}
+
+.service-text {
+  flex: 1;
+  min-width: 250px; 
+}
+
+.service-text ul {
+  list-style-type: none;
+  padding-left: 20px;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+li{
+  margin: 20px;
+}
+
+.service-image {
+  flex: 1; 
+  text-align: end;
+  margin: 90px 0;
+}
+
+.service-image img {
+  width: 100%;
+  max-width: 800px; 
+  height: auto;
+  border-radius: 8px; 
+}

@@ -1,0 +1,35 @@
+/*
+File Name: Home.css
+Student Name: Funmi Adewoye
+StudentID: 301341332
+Date: 09/25/2025
+*/
+
+
+.home-content{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.home-content h1 {
+  margin-bottom: 3rem;
+  font-size: 5rem;
+}
+
+.home-content p{
+  margin-bottom: 3em;
+  font-size: 1.2rem;
+}
+
+.home-content button{
+  padding: 20px;
+  width: 168px;
+}
+.home-content button:hover{
+  background-color: #FF9800;
+  border: none;
+}

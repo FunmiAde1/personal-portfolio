@@ -1,0 +1,44 @@
+/*
+File Name: About.css
+Student Name: Funmi Adewoye
+StudentID: 301341332
+Date: 09/25/2025
+*/
+
+
+.about-me-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+  align-items: center; 
+}
+
+.about-me-info img {
+  width: 300px;
+  margin: 50px;
+  height: auto;
+  border-radius: 8px;
+}
+
+h1 , p{
+  margin-bottom: 20px;
+
+}
+
+a{
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+button{
+  padding: 20px;
+}
+
+button:hover {
+  background-color: #FF9800;
+  border: none;
+}
+
+

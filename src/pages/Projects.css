@@ -1,0 +1,53 @@
+/*
+File Name: Projects.css
+Student Name: Funmi Adewoye
+StudentID: 301341332
+Date: 09/25/2025
+*/
+
+.projects-container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+
+.first-project {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.first-project img {
+  width: 80%;
+  max-width: 400px;
+  border-radius: 8px;
+}
+
+
+.second-third-projects {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+
+.project-card {
+  text-align: center;
+  width: 550px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-card img {
+  width: 100%; 
+  height: auto;
+  border-radius: 8px;
+}
+
+h3{
+  font-size: 2rem;
+  font-weight: 900;
+}
